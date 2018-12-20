@@ -1,0 +1,26 @@
+{
+  "name": "dan2k3k4",
+  "version": "1.0.0",
+  "description": "A personal card for dan2k3k4",
+  "main": "index.js",
+  "bin": {
+    "dan2k3k4": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dan2k3k4/dan2k3k4.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dan Lemon (https://danlemon.com)",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
