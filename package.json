@@ -1,8 +1,8 @@
 {
   "name": "dan2k3k4",
-  "version": "1.0.0",
   "description": "A personal card for dan2k3k4",
-  "main": "index.js",
+  "version": "1.1.0",
+  "main": "/bin/card.js",
   "bin": {
     "dan2k3k4": "./bin/card.js"
   },
@@ -11,16 +11,29 @@
     "url": "https://github.com/dan2k3k4/dan2k3k4.git"
   },
   "scripts": {
+    "prepare": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "lint": "standard",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "Dan Lemon (https://danlemon.com)",
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
   "license": "MIT",
-  "dependencies": {
-    "boxen": "^2.1.0",
-    "chalk": "^2.4.1"
-  },
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
   "devDependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1",
     "standard": "^12.0.1"
   }
 }
