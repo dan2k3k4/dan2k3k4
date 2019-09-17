@@ -2,6 +2,9 @@
   "name": "dan2k3k4",
   "description": "A personal card for dan2k3k4",
   "version": "1.1.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@dan2k3k4"
+  },
   "main": "/bin/card.js",
   "bin": {
     "dan2k3k4": "./bin/card.js"
