@@ -1,11 +1,5 @@
-A simple NPX business card.
-
-# Usage
-Via npx:
+# NPX Card
 
 ```bash
 npx dan2k3k4
 ```
-
-![business card](/preview.png)
-
